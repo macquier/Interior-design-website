@@ -42,7 +42,11 @@ a {
   text-decoration: none;
 }
 
-button {
+button,
+input,
+textarea,
+input::placeholder,
+textarea::placeholder {
   cursor: pointer;
   border: none;
   background-color: transparent;
@@ -51,6 +55,13 @@ button {
 }
 
 button,
-input {
+input,
+textarea,
+input::placeholder,
+textarea::placeholder {
   outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  padding: 0;
 }

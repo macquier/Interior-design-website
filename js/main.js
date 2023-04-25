@@ -13,6 +13,14 @@ $(document).ready(function () {
     $(".header-slider").trigger("prev.owl.carousel");
   });
 
+  $(".portfolio__content-slider").owlCarousel({
+    items: 1,
+    loop: true,
+    smartSpeed: 600,
+    stagePadding: 40,
+    margin: 15,
+  });
+
   Fancybox.bind("[data-fancybox]", {
     Thumbs: false,
     Toolbar: {
